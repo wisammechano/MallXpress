@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_color">#fff1f1f1</color>
+    <color name="dark_primary_color">#ff81c882</color>
+    <color name="primary_color">#c23e58</color>
+    <color name="secondary_text_color">#ff727272</color>
+    <color name="toolbar_title_color">#ffffffff</color>
+    <color name="white">#ffffffff</color>
+    <color name="heading_color">#40000000</color>
+    <color name="light_gray_color1">#ffcccccc</color>
+    <color name="background_color_blue">#ff23a1d1</color>
+    <color name="gray">#ff626262</color>
+    <color name="link_color">#ff0077cc</color>
+    <color name="price_color">@color/primary_color</color>
+    <color name="special_price_color">#fff04438</color>
+    <color name="tabSelectedColor">#ffffffff</color>
+    <color name="view_switcher_color">#ff444349</color>
+    <color name="shop_by_color">#ff444349</color>
+    <color name="sort_by_color">#ff444349</color>
+    <color name="black">#ff000000</color>
+    <color name="filter_color_selected">#fffec107</color>
+    <color name="image_border_center">#50000000</color>
+    <color name="image_border_end">#ffffffff</color>
+    <color name="image_border_start">#ff0097a7</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="blackShadow">#90000000</color>
+
+</resources>

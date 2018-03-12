@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="drawerArrowStyle" format="reference" />
+    <attr name="cardBackgroundColor" format="color" />
+    <attr name="cardElevation" format="dimension" />
+    <attr name="progressBarStyle" format="reference" />
+
+</resources>

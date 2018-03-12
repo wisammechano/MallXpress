@@ -1,0 +1,6 @@
+re arrange the home page
+
+change categories viewer to view specific banner
+
+http://androidopentutorials.com/android-image-slideshow-using-viewpager/
+https://github.com/JakeWharton/ViewPagerIndicator

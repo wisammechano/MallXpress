@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/ic_search"
+        android:id="@id/search"
+        android:title="@string/search"
+        android:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView" />
+    <item
+        android:icon="@drawable/ic_menu_notifications"
+        android:id="@id/action_bell"
+        android:title="@string/action_bell"
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/ic_menu_cart"
+        android:id="@id/action_cart"
+        android:title="@string/action_cart"
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/ic_overflow"
+        android:id="@id/action_settings"
+        android:orderInCategory="11111"
+        android:title="overFlowMenu"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@id/login"
+                android:background="#ff0097a7"
+                android:title="@string/login_action_title"
+                app:showAsAction="never" />
+            <item
+                android:id="@id/signup"
+                android:title="@string/signup_action_title"
+                app:showAsAction="never" />
+            <item
+                android:id="@id/dashboard"
+                android:title="@string/my_account"
+                app:showAsAction="never" />
+            <item
+                android:id="@id/accountinfo"
+                android:title="@string/edit_account"
+                app:showAsAction="never" />
+            <item
+                android:id="@id/addrbook"
+                android:title="@string/addrbook_action_title"
+                app:showAsAction="never" />
+            <item
+                android:id="@id/myproreview"
+                android:visible="false"
+                android:title="@string/myproreview_action_title"
+                app:showAsAction="never" />
+            <item
+                android:id="@id/myorders"
+                android:title="@string/myorder_action_title"
+                app:showAsAction="never" />
+            <item
+                android:id="@id/mywishlist"
+                android:title="@string/mywishlist_action_title"
+                app:showAsAction="never" />
+            <item
+                android:id="@id/newslettersubs"
+                android:title="@string/newslettersubs_action_title"
+                app:showAsAction="never" />
+            <item
+                android:id="@id/mydownloads"
+                android:title="@string/mydownloads_action_title"
+                app:showAsAction="never" />
+            <item
+                android:id="@id/marketPlace"
+                android:visible="false"
+                android:title="@string/sell"
+                app:showAsAction="never" />
+            <item
+                android:id="@id/sellerDashboard"
+                android:visible="false"
+                android:title="@string/seller_dashboard"
+                app:showAsAction="never" />
+            <item
+                android:id="@id/sellerOrder"
+                android:visible="false"
+                android:title="@string/seller_order"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+</menu>

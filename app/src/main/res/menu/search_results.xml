@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@id/search"
+        android:actionViewClass="android.widget.SearchView"
+        android:icon="@drawable/ic_search"
+        android:title="Search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always" />
+    <item
+        android:id="@id/action_settings"
+        android:icon="@drawable/ic_overflow"
+        android:orderInCategory="11111"
+        android:title="overFlowMenu"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@id/login"
+                android:background="#ff0097a7"
+                android:icon="@drawable/ic_login26"
+                android:title="@string/login_action_title"
+                app:actionViewClass="android.support.v7.widget.SearchView"
+                app:showAsAction="never" />
+            <item
+                android:id="@id/signup"
+                android:icon="@drawable/ic_signup"
+                android:title="@string/signup_action_title"
+                app:actionViewClass="android.support.v7.widget.SearchView"
+                app:showAsAction="never" />
+            <item
+                android:id="@id/dashboard"
+                android:icon="@drawable/ic_dash26"
+                android:title="@string/dashboard_action_title"
+                app:actionViewClass="android.support.v7.widget.SearchView"
+                app:showAsAction="never" />
+            <item
+                android:id="@id/accountinfo"
+                android:icon="@drawable/ic_acc_info"
+                android:title="@string/accountinfo_action_title"
+                app:actionViewClass="android.support.v7.widget.SearchView"
+                app:showAsAction="never" />
+            <item
+                android:id="@id/addrbook"
+                android:icon="@drawable/ic_book26"
+                android:title="@string/addrbook_action_title"
+                app:actionViewClass="android.support.v7.widget.SearchView"
+                app:showAsAction="never" />
+            <item
+                android:id="@id/myorders"
+                android:icon="@drawable/ic_order"
+                android:title="@string/myorder_action_title"
+                app:actionViewClass="android.support.v7.widget.SearchView"
+                app:showAsAction="never" />
+            <item
+                android:id="@id/myproreview"
+                android:icon="@drawable/ic_star"
+                android:title="@string/myproreview_action_title"
+                app:actionViewClass="android.support.v7.widget.SearchView"
+                app:showAsAction="never" />
+            <item
+                android:id="@id/mywishlist"
+                android:icon="@drawable/ic_wishlist26"
+                android:title="@string/mywishlist_action_title"
+                app:actionViewClass="android.support.v7.widget.SearchView"
+                app:showAsAction="never" />
+            <item
+                android:id="@id/newslettersubs"
+                android:icon="@drawable/ic_news"
+                android:title="@string/newslettersubs_action_title"
+                app:actionViewClass="android.support.v7.widget.SearchView"
+                app:showAsAction="never" />
+            <item
+                android:id="@id/mydownloads"
+                android:icon="@drawable/ic_down26"
+                android:title="@string/mydownloads_action_title"
+                app:actionViewClass="android.support.v7.widget.SearchView"
+                app:showAsAction="never" />
+            <item
+                android:id="@id/marketPlace"
+                android:icon="@drawable/ic_marketplace"
+                android:title="Marketplace"
+                android:visible="false"
+                app:actionViewClass="android.support.v7.widget.SearchView"
+                app:showAsAction="never" />
+            <item
+                android:id="@id/sellerDashboard"
+                android:icon="@drawable/ic_seller_dashboard"
+                android:title="Seller Dashboard"
+                android:visible="false"
+                app:actionViewClass="android.support.v7.widget.SearchView"
+                app:showAsAction="never" />
+            <item
+                android:id="@id/sellerOrder"
+                android:icon="@drawable/ic_seller_order_history"
+                android:title="Seller Order"
+                android:visible="false"
+                app:actionViewClass="android.support.v7.widget.SearchView"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+</menu>

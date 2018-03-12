@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <android.support.design.widget.AppBarLayout
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:id="@id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@id/collapsing_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true"
+            app:collapsedTitleTextAppearance="@style/MyTheme.ActionBar.TitleTextStyle"
+            app:contentScrim="@color/primary_color"
+            app:expandedTitleMarginEnd="64dp"
+            app:expandedTitleMarginStart="48dp"
+            app:scrimVisibleHeightTrigger="@dimen/toolbar_height"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed|snap">
+
+            <RelativeLayout
+                android:id="@+id/backdrop_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_collapseMode="parallax">
+
+                <ImageView
+                    android:id="@+id/backdrop"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fitsSystemWindows="true"
+                    android:scaleType="fitStart" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/backdrop_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/white"
+                        android:shadowColor="@color/blackShadow"
+                        android:shadowDy="2"
+                        android:shadowDx="2"
+                        android:shadowRadius="5"
+                        android:textSize="@dimen/backdrop_title" />
+
+                    <TextView
+                        android:id="@+id/backdrop_subtitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/white"
+                        android:shadowColor="@color/blackShadow"
+                        android:shadowDy="2"
+                        android:shadowDx="2"
+                        android:shadowRadius="5"
+                        android:textSize="@dimen/backdrop_subtitle" />
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/recyclerview_elev"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/elev_sahdow" />
+
+            <include
+                android:id="@id/toolbar"
+                layout="@layout/toolbar" />
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+        <LinearLayout
+            android:id="@+id/noBackdropLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true"
+            android:visibility="gone"
+            android:orientation="vertical"></LinearLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_color"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context=".CategoriesActivity">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/cat_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:scrollbars="vertical" />
+    </RelativeLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

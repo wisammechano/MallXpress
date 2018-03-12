@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "22141725881",
+    "firebase_url": "https://fir-edenxpress.firebaseio.com",
+    "project_id": "firebase-edenxpress",
+    "storage_bucket": "firebase-edenxpress.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22141725881:android:c47fc54332c9994f",
+        "android_client_info": {
+          "package_name": "com.edenxpress.mobi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "22141725881-6ei4v27307s74jrb2svcm7uf3u2rk15l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.edenxpress.mobi",
+            "certificate_hash": "9BB00D19C96DADC641B731A43034140DCFB7DD75"
+          }
+        },
+        {
+          "client_id": "22141725881-4pf1rb1kghsroniq3cbaggv4rd6cq66t.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "22141725881-h2me5upo3tp7e4j72fcr2scl2bkfrgqe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8wwp_DEFetgmDhvWcjwJc5egkkiGe8Is"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-89941885-1"
+          }
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "22141725881-4pf1rb1kghsroniq3cbaggv4rd6cq66t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
